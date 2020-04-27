@@ -16,10 +16,10 @@ I was provided with Training Data and Training Labels to use to build a model th
 ## How to Run
 - Clone this repository to your local machine
   - <pre><code>git clone https://github.com/ConnorLacy/Preprocess-and-Classify.git</code></pre>
-- Driver: `test_samples.py`
+- Build Models: `test_samples.py`
   - Flags:
     - Required:
-      - --dataset &lt;dataset_number&gt;
+      - --sample &lt;dataset_number&gt;
         - Specify which dataset you would like to use by number.
         - E.g. 'TestData1.txt'
           - `python3 test_samples.py --dataset 1`
@@ -34,3 +34,4 @@ I was provided with Training Data and Training Labels to use to build a model th
         - Default value: False
         - E.g. Verbose=True
           - `python3 test_samples.py --dataset 1 --verbose`
+  - Test Models: `predict.py`
